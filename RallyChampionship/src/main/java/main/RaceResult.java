@@ -1,7 +1,12 @@
 package main;
-import java.util.Map;
+
+import java.util.List;
 
 public interface RaceResult {
+
     void recordResult(Driver driver, int position, int points);
-    Map<Driver, Integer> getResults();
+
+    int getDriverPoints(Driver driver);
+
+    List<Driver> getResults();
 }
