@@ -1,5 +1,8 @@
 package main;
 
+// SINGLE RESP., only looks at driver data
+// D.I.P -> Driver  depends on abstract class RallyCar, rather than specific classes Asphalt/Gravel
+
 public class Driver {
 
     private String name;

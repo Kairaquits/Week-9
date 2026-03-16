@@ -1,5 +1,7 @@
 package main;
 
+// Interface segregation -> interface is small enough to make sure that classes use their needed methods. 
+
 import java.util.List;
 
 public interface RaceResult {

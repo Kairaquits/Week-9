@@ -1,5 +1,6 @@
 package main;
 
+// Liskov: Replace rallycar superclass
 public class AsphaltCar extends RallyCar {
 
     private double downforce;

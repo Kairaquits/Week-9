@@ -3,6 +3,10 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+
+//SINGLETON: class where only one object exists.
+// We only want one Championship Manager.
+
 public class ChampionshipManager {
 
     private static ChampionshipManager instance;
@@ -12,6 +16,7 @@ public class ChampionshipManager {
 
     private ChampionshipManager() {}
 
+    // Get instance -> every part of the program asks class for THE manager, doesnt create own. 
     public static ChampionshipManager getInstance() {
         if (instance == null) {
             instance = new ChampionshipManager();

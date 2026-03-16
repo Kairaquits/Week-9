@@ -1,5 +1,7 @@
 package main;
 
+//OPEN/CLOSE -> can add cars without modifying class.
+
 public abstract class RallyCar {
 
     private String make;

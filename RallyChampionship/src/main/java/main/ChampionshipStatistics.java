@@ -3,6 +3,10 @@ package main;
 import java.util.HashMap;
 import java.util.Map;
 
+// static method -> dont need to create Championstats object
+
+// SRP -> this file only calculates
+
 public class ChampionshipStatistics {
 
     public static double averagePointsPerDriver(ChampionshipManager manager){

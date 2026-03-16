@@ -2,6 +2,9 @@ package main;
 
 import java.util.*;
 
+// results of one rally race
+// Interface segregation: depends on interface.
+
 public class RallyRaceResult implements RaceResult {
 
     private String raceName;
