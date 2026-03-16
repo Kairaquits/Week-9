@@ -1,7 +1,6 @@
 package main;
 
 // SINGLE RESP., only looks at driver data
-// D.I.P -> Driver  depends on abstract class RallyCar, rather than specific classes Asphalt/Gravel
 
 public class Driver {
 
@@ -10,6 +9,7 @@ public class Driver {
     private int points;
     private RallyCar car;
 
+    // D.I.P -> Driver depends abstract class RallyCar, rather than specific classes Asphalt/Gravel
     public Driver(String name, String country, RallyCar car){
         this.name = name;
         this.country = country;

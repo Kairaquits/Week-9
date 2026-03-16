@@ -1,6 +1,7 @@
 package main;
 
 // Interface segregation -> interface is small enough to make sure that classes use their needed methods. 
+// Interface Segregation, other classes can depend on this interface rather than specific implementations
 
 import java.util.List;
 
