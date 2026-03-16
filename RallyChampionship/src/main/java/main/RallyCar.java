@@ -1,6 +1,6 @@
 package main;
 
-//OPEN/CLOSE -> can add cars without modifying class.
+//OPEN/CLOSE -> can add cars without modifying rallyCar class.
 
 public abstract class RallyCar {
 
